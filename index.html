@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SALVE</title>
+</head>
+<body>
+<section>
+    <h2>SALVE</h2>
+    <button onclick="abrirVideo()">SALVE</button>
+    <div id="videoContainer"></div>
+<script>
+    function abrirVideo() {
+        // ID do vídeo do YouTube que você deseja incorporar
+        var videoID = "yXYdNgV3cpM";
+
+        // URL do vídeo do YouTube
+        var videoURL = "https://www.youtube.com/embed/" + videoID;
+
+        // Criar o elemento iframe
+        var iframe = document.createElement("iframe");
+        iframe.setAttribute("width", "560");
+        iframe.setAttribute("height", "315");
+        iframe.setAttribute("src", videoURL);
+        iframe.setAttribute("frameborder", "0");
+        iframe.setAttribute("allowfullscreen", "");
+
+        // Adicionar o iframe ao contêiner de vídeo
+        document.getElementById("videoContainer").appendChild(iframe);
+    }
+</script>
+</section>
+    <style>
+        body {
+            background-image: url('Salve.png');
+            background-size: cover; /* Isso garante que a imagem cubra todo o fundo */
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* Mantém a imagem fixa enquanto a página rola */
+        }
+    </style>
+
+    <header>
+        <h1>SALVE</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">SALVE</a></li>
+            <li><a href="#">SALVE</a></li>
+            <li><a href="#">SALVE</a></li>
+        </ul>
+    </nav>
+    
+    <section>
+        <h2>Sobre Nós</h2>
+        <p>SALVE</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 SALVE. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
